@@ -1,8 +1,9 @@
 const cards = document.querySelectorAll(".card");
+const buttons = document.querySelectorAll("button");
 
-cards.forEach(card => {
-  card.addEventListener("click", () => {
+buttons.forEach((btn, index) => {
+  btn.addEventListener("click", () => {
     cards.forEach(c => c.classList.remove("highlight"));
-    card.classList.add("highlight");
+    cards[index].classList.add("highlight");
   });
 });

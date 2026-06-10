@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Smart Product Comparator</title>
+  <title>Smart Product Comparator Pro</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,38 +12,61 @@
 
     <header>
       <h1>🛒 Smart Product Comparator</h1>
-      <p>Compare products and choose the best one</p>
+      <p>Compare specs, prices and choose the best device</p>
     </header>
 
+    <!-- CARDS -->
     <div class="grid">
 
       <div class="card">
-        <h3>iPhone 15</h3>
-        <p>💰 $999</p>
-        <span>⭐ 4.8 Rating</span>
-        <span>🔋 3200 mAh</span>
-        <span>💾 128GB</span>
+        <h3>📱 iPhone 15</h3>
+        <p class="price">$999</p>
+
+        <div class="specs">
+          <span>⭐ 4.8 Rating</span>
+          <span>🔋 Battery: 3200 mAh</span>
+          <span>💾 Storage: 128GB</span>
+          <span>📸 Camera: 48MP</span>
+          <span>⚡ Chip: A16 Bionic</span>
+        </div>
+
+        <button>Select</button>
       </div>
 
       <div class="card highlight">
-        <h3>Samsung S24</h3>
-        <p>💰 $899</p>
-        <span>⭐ 4.6 Rating</span>
-        <span>🔋 4000 mAh</span>
-        <span>💾 256GB</span>
+        <h3>📱 Samsung S24</h3>
+        <p class="price">$899</p>
+
+        <div class="specs">
+          <span>⭐ 4.6 Rating</span>
+          <span>🔋 Battery: 4000 mAh</span>
+          <span>💾 Storage: 256GB</span>
+          <span>📸 Camera: 50MP</span>
+          <span>⚡ Chip: Snapdragon 8 Gen 3</span>
+        </div>
+
+        <button>Select</button>
       </div>
 
       <div class="card">
-        <h3>Pixel 8</h3>
-        <p>💰 $799</p>
-        <span>⭐ 4.5 Rating</span>
-        <span>🔋 3800 mAh</span>
-        <span>💾 128GB</span>
+        <h3>📱 Pixel 8</h3>
+        <p class="price">$799</p>
+
+        <div class="specs">
+          <span>⭐ 4.5 Rating</span>
+          <span>🔋 Battery: 3800 mAh</span>
+          <span>💾 Storage: 128GB</span>
+          <span>📸 Camera: 50MP AI</span>
+          <span>⚡ Chip: Google Tensor G3</span>
+        </div>
+
+        <button>Select</button>
       </div>
 
     </div>
 
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
